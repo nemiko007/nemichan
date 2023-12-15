@@ -2,6 +2,7 @@ import "bulma/css/bulma.css";
 
 import Works from "./compornents/Works";
 import About from "./compornents/About";
+import Articles from "./compornents/Articles";
 
 import { useState } from "react";
 
@@ -22,6 +23,7 @@ export default function App() {
         <div id="navbarBasic" className={`navbar-menu ${active ? 'is-active' : ''}`}>
           <div class="navbar-start">
             <a class="navbar-item" href="#works">Works</a>
+            <a class="navbar-item" href="#articles">Articles</a>
             <a class="navbar-item" href="#about">About</a>
           </div>
         </div>
@@ -43,6 +45,9 @@ export default function App() {
       <br></br>
       <a name="works"></a>
       <Works />
+      <br></br>
+      <a name="articles"></a>
+      <Articles />
       <br></br>
       <a name="about"></a>
       <About />
