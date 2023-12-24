@@ -22,9 +22,9 @@ export default function App() {
         </div>
         <div id="navbarBasic" className={`navbar-menu ${active ? 'is-active' : ''}`}>
           <div class="navbar-start">
+            <a class="navbar-item" href="#about">About</a>
             <a class="navbar-item" href="#works">Works</a>
             <a class="navbar-item" href="#articles">Articles</a>
-            <a class="navbar-item" href="#about">About</a>
           </div>
         </div>
       </nav>
@@ -43,14 +43,14 @@ export default function App() {
         </div>
       </section>
       <br></br>
-      <a name="works"></a>
-      <Works />
+      <a name="about"></a>
+      <About />
       <br></br>
       <a name="articles"></a>
       <Articles />
       <br></br>
-      <a name="about"></a>
-      <About />
+      <a name="works"></a>
+      <Works />
     </>
   )
 }
