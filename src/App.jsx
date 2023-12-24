@@ -23,8 +23,8 @@ export default function App() {
         <div id="navbarBasic" className={`navbar-menu ${active ? 'is-active' : ''}`}>
           <div class="navbar-start">
             <a class="navbar-item" href="#about">About</a>
-            <a class="navbar-item" href="#works">Works</a>
             <a class="navbar-item" href="#articles">Articles</a>
+            <a class="navbar-item" href="#works">Works</a>
           </div>
         </div>
       </nav>
